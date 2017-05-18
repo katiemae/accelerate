@@ -14,12 +14,13 @@
  * @since Accelerate Marketing 1.0
  */
 
+
 get_header(); ?>
+
 	<!-- BLOG PAGE -->
 	<section class="blog-page">
 		<div class="site-content">
 			<div class="main-content">
-				
 			<?php
 			if ( have_posts() ) :
 				// Start the Loop.
