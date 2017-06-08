@@ -16,6 +16,11 @@
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
+#masthead nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
 #masthead, .button {
     background: #45ac9d;
 }
