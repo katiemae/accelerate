@@ -218,3 +218,40 @@ Bonus: What does the confirmation page look like after you submit the form? Can 
 .about-hero span {
 	color: #45ac9d;
 }
+
+.services-content {
+	max-width: 800px;
+	width: 70%;
+}
+
+.services p {
+	font-size: 16.5px;
+	margin: 0 0 10px 0;
+}
+
+.services-intro {
+	text-align: center;
+}
+
+.services-intro h4 {
+	font-size: 16.5px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	margin: 0 0 25px 0;
+}
+
+.services h3 {
+	font-size: 25px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.service-icon {
+	width: 34%;
+	float: left;
+}
+
+.service-text {
+	width: 66%;
+	float: left;
+}

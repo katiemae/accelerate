@@ -21,42 +21,45 @@ get_header(); ?>
 			</div>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->
-</section><!-- .home-page -->
-
-<section class="featured-work">
-	<div class="site-content">
-		<h4>Featured Work</h4>
-		<ul class="homepage-featured-work">
-		<?php query_posts('posts_per_page=3&post_type=case_studies&order=ASC'); ?>
-			<?php while ( have_posts() ) : the_post(); 
-				$image_1 = get_field("image_1");
-				$size = "medium";
-			?>
-			<li class="individual-featured-work">
-				<figure>
-					<?php echo wp_get_attachment_image($image_1, $size); ?>
-				</figure>
-				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-			</li>
-			<?php endwhile; ?>
-		<?php wp_reset_query(); ?>
-		</ul>
-	</div>
 </section>
 
-<section class="recent-posts">
-	<div class="site-content">
-		<div class="blog-post">
-			<h4>From the Blog</h4>
-			<?php query_posts('posts_per_page=1'); ?>
-				<?php while ( have_posts() ) : the_post(); ?>
-					<h2><?php the_title(); ?></h2>
-					<?php the_excerpt(); ?>
-					<a class="read-more-link" href="<?php the_permalink(); ?>">Read more &rsaquo;</a>
-				<?php endwhile; ?>
-			<?php wp_reset_query(); ?>
+<section class="services">
+	<div class="site-content" "services-content">
+		<div class="services-intro">
+			<h4>Our Services</h4>
+			<p>We take pride in our clients and the content we create for them.</p>
+			<p>Here's a brief overview of our offered services.</p>
+		</div>
+		<div class="service-icon left-service-icon">
+		</div>
+		<div class="service-text right-service-text">
+			<h3>Content Strategy</h3>
+			<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+		</div>
+
+		<div class="service-text left-service-text">
+			<h3>Influencer Mapping</h3>
+			<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+		</div>
+		<div class="service-icon right-service-icon">
+		</div>			
+
+		<div class="service-icon left-service-icon">
+		</div>
+		<div class="service-text right-service-text">
+			<h3>Social Media Strategy</h3>
+			<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+		</div>		
+
+		<div class="service-text left-service-text">
+			<h3>Design and Development</h3>
+			<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+		</div>
+		<div class="service-icon right-service-icon">
 		</div>
 	</div>
 </section>
+
+
 
 <?php get_footer(); ?>
