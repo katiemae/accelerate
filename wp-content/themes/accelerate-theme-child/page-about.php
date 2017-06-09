@@ -13,12 +13,11 @@
  */
 
 get_header(); ?>
-<section class="home-page">
+<section class="about-page">
 	<div class="site-content">
 		<?php while ( have_posts() ) : the_post(); ?>
-			<div class='homepage-hero'>
+			<div class='about-hero'>
 				<?php the_content(); ?>
-				<a class="button" href="<?php echo home_url(); ?>/case-studies">View Our Work</a>
 			</div>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->

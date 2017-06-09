@@ -12,7 +12,7 @@
 
 @import url("../accelerate-theme/style.css");
 
-.home-page {
+.home-page, .about-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
@@ -192,4 +192,29 @@ Bonus: What does the confirmation page look like after you submit the form? Can 
 .nf-response-msg {
 	width: 620px;
 	margin: 200px auto;
+}
+
+/*About Page Styles*/
+
+
+.about-page {
+    height: 300px;
+    margin: 0 0 80px;
+    background-position: 0px -200px;
+}
+
+.about-hero {
+	margin: auto;
+	width: 60%;
+	padding-top: 60px;
+}
+
+.about-hero p {
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+
+.about-hero span {
+	color: #45ac9d;
 }
