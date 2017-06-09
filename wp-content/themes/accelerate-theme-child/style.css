@@ -140,3 +140,56 @@ aside.case-study-sidebar a.view-project {
 	font-size: 16px;
 	font-family: 'Montserrat';
 }
+
+
+/*Contact Page Styles*/
+
+/*Float the Name and Email fields side-by-side instead of stacked.
+Change the labels to be a smaller font size and regular font weight.
+Style the Send button and float it right.
+Make the whole thing (including the header and text) more narrow.
+Bonus: What does the confirmation page look like after you submit the form? Can you make that style fit with the style of the site?*/
+
+
+.nf-form-content {
+	font-size: 14px;
+	font-weight: normal;
+	width: 620px;
+	margin: 0 auto;
+}
+
+.nf-form-content h2 {
+	font-size: 25px;
+	font-family: 'Montserrat';
+}
+
+.nf-form-content p {
+	font-size: 16.5px;
+}
+
+#nf-field-1-container, #nf-field-2-container {
+	float: left;
+	width: 48%;
+	clear: none;
+}
+
+#nf-field-1-container {
+	margin-right: 4%;
+}
+
+#nf-field-4 {
+	float: right;
+	background: #45ac9d;
+	width: 200px;
+	height: 50px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*Contact Page Success Message Styles*/
+
+.nf-response-msg {
+	width: 620px;
+	margin: 200px auto;
+}
