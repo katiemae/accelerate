@@ -144,13 +144,6 @@ aside.case-study-sidebar a.view-project {
 
 /*Contact Page Styles*/
 
-/*Float the Name and Email fields side-by-side instead of stacked.
-Change the labels to be a smaller font size and regular font weight.
-Style the Send button and float it right.
-Make the whole thing (including the header and text) more narrow.
-Bonus: What does the confirmation page look like after you submit the form? Can you make that style fit with the style of the site?*/
-
-
 .nf-form-content {
 	font-size: 14px;
 	font-weight: normal;
@@ -233,6 +226,11 @@ Bonus: What does the confirmation page look like after you submit the form? Can 
 	text-align: center;
 }
 
+.service-block {
+	clear: both;
+	padding-top: 70px;
+}
+
 .services-intro h4 {
 	font-size: 16.5px;
 	text-transform: uppercase;
@@ -244,14 +242,34 @@ Bonus: What does the confirmation page look like after you submit the form? Can 
 	font-size: 25px;
 	font-weight: normal;
 	margin-bottom: 30px;
+	margin-top: 0;
 }
 
 .service-icon {
-	width: 34%;
+	width: 23%;
 	float: left;
 }
 
 .service-text {
-	width: 66%;
+	width: 74%;
+	float: left;
+}
+
+.left-service-icon {
+	margin-right: 3%;
+}
+
+.right-service-icon {
+	margin-left: 3%;
+}
+
+.about-contact {
+	border-top: 1px dotted #e3e1e1;
+	clear: both;
+	margin: 0 auto;
+	text-align: center
+}
+
+.about-contact h4, .about-contact .button {
 	float: left;
 }

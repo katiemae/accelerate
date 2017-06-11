@@ -30,34 +30,61 @@ get_header(); ?>
 			<p>We take pride in our clients and the content we create for them.</p>
 			<p>Here's a brief overview of our offered services.</p>
 		</div>
-		<div class="service-icon left-service-icon">
-		</div>
-		<div class="service-text right-service-text">
-			<h3>Content Strategy</h3>
-			<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+
+		<div class="service-block">
+			<div class="service-icon left-service-icon">
+				<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/bullseye-icon.jpg">
+			</div>
+			<div class="service-text right-service-text">
+				<h3>Content Strategy</h3>
+				<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+			</div>
 		</div>
 
-		<div class="service-text left-service-text">
-			<h3>Influencer Mapping</h3>
-			<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+		<div class="service-block">
+			<div class="service-text left-service-text">
+				<h3>Influencer Mapping</h3>
+				<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+			</div>
+			<div class="service-icon right-service-icon">
+				<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/atom-icon.jpg">
+			</div>			
 		</div>
-		<div class="service-icon right-service-icon">
-		</div>			
 
-		<div class="service-icon left-service-icon">
-		</div>
-		<div class="service-text right-service-text">
-			<h3>Social Media Strategy</h3>
-			<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+		<div class="service-block">
+			<div class="service-icon left-service-icon">
+				<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/like-icon.jpg">
+			</div>
+			<div class="service-text right-service-text">
+				<h3>Social Media Strategy</h3>
+				<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+			</div>			
 		</div>		
 
-		<div class="service-text left-service-text">
-			<h3>Design and Development</h3>
-			<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
-		</div>
-		<div class="service-icon right-service-icon">
+		<div class="service-block">
+			<div class="service-text left-service-text">
+				<h3>Design and Development</h3>
+				<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
+			</div>
+			<div class="service-icon right-service-icon">
+				<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/magicwand-icon.jpg">
+			</div>
 		</div>
 	</div>
+</section>
+
+<section class="contact-us">
+	<div class="site-content">
+		<div class="about-contact">
+			<h4>Interested in working with us?</h4>
+			<a href="">
+					<div class="button">
+					Contact Us
+				</div>
+			</a>
+		</div>
+	</div>
+
 </section>
 
 
