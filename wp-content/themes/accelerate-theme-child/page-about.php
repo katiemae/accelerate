@@ -1,11 +1,6 @@
 <?php
 /**
- * The template for displaying the homepage
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
+ * The template for displaying the about page
  *
  * @package WordPress
  * @subpackage Accelerate Marketing
@@ -32,9 +27,9 @@ get_header(); ?>
 		</div>
 
 		<div class="service-block">
-			<div class="service-icon left-service-icon">
+			<figure class="service-icon left-service-icon">
 				<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/bullseye-icon.jpg">
-			</div>
+			</figure>
 			<div class="service-text right-service-text">
 				<h3>Content Strategy</h3>
 				<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
@@ -46,15 +41,15 @@ get_header(); ?>
 				<h3>Influencer Mapping</h3>
 				<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
 			</div>
-			<div class="service-icon right-service-icon">
+			<figure class="service-icon right-service-icon">
 				<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/atom-icon.jpg">
-			</div>			
+			</figure>			
 		</div>
 
 		<div class="service-block">
-			<div class="service-icon left-service-icon">
+			<figure class="service-icon left-service-icon">
 				<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/like-icon.jpg">
-			</div>
+			</figure>
 			<div class="service-text right-service-text">
 				<h3>Social Media Strategy</h3>
 				<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
@@ -66,21 +61,19 @@ get_header(); ?>
 				<h3>Design and Development</h3>
 				<p>Bacon ipsum dolor sit amet strip steak jowl pancetta, cow turkey salami sausage fatback boudin biltong frankfurter shoulder pork turducken spare ribs. Ground round t-bone swine shoulder, cow bacon sausage turkey meatloaf. Tongue ball tip corned beef turkey. Leberkas shoulder pork chop doner venison meatball pig chicken spare.</p>
 			</div>
-			<div class="service-icon right-service-icon">
+			<figure class="service-icon right-service-icon">
 				<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/magicwand-icon.jpg">
-			</div>
+			</figure>
 		</div>
 	</div>
 </section>
 
 <section class="contact-us">
-	<div class="site-content">
-		<div class="about-contact">
+	<div class="site-content" id="about-page-contact">
+		<div class="about-contact-text">
 			<h4>Interested in working with us?</h4>
-			<a href="">
-					<div class="button">
-					Contact Us
-				</div>
+			<a href="http://localhost:8888/accelerate/contact-us/" class="button contact-us-button">
+				Contact Us
 			</a>
 		</div>
 	</div>
