@@ -67,3 +67,7 @@ function accelerate_theme_child_widget_init() {
     
 }
 add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
+
+
+//Add a new image size
+add_image_size( 'custom-large', 514, 379 ); // 220 pixels wide by 180 pixels tall, soft proportional crop mode

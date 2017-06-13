@@ -19,7 +19,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); 
 				$services = get_field('services');
 				$image_1 = get_field('image_1');
-				$size = "full";
+				$size = "custom-large";
 			?>
 				<article class="case-study">
 					<aside class="case-study-sidebar">
