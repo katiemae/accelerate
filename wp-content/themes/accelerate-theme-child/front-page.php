@@ -45,6 +45,33 @@ get_header(); ?>
 	</div>
 </section>
 
+<section class="our-services">
+	<div class="site-content">
+		<h4>Our Services</h4>
+			<div>
+				<div class="quarter-width">
+					<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/bullseye-icon.jpg">
+					<h3>Content Strategy</h3>
+				</div>
+				<div class="quarter-width">
+					<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/atom-icon.jpg">
+					<h3>Influencer Mapping</h3>
+				</div>
+				<div class="quarter-width">
+					<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/like-icon.jpg">
+					<h3>Social Media Strategy</h3>
+				</div>
+				<div class="quarter-width">
+					<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/magicwand-icon.jpg">
+					<h3>Design &amp; Development</h3>
+				</div>	
+
+
+			</div>
+
+	</div>
+</section>
+
 <section class="recent-posts">
 	<div class="site-content">
 		<div class="blog-post">
@@ -58,7 +85,7 @@ get_header(); ?>
 			<?php wp_reset_query(); ?>
 		</div>
 		<div class="twitter-feed">
-			<h4>Recent Tweets</h4>
+			<h4>Recent Tweet</h4>
 			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
 			<div id="secondary" class="widget-area" role="complementary">
 				<?php dynamic_sidebar( 'sidebar-2' ); ?>

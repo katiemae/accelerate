@@ -28,7 +28,8 @@
     background: #45ac9d;
 }
 
-.featured-work h4 {
+.featured-work h4, 
+.our-services h4 {
 	font-size: 16.5px;
 	text-transform: uppercase;
 	font-family: 'Montserrat';
@@ -51,10 +52,23 @@
 	margin-left: 4.5%;
 }
 
-.featured-work h3 {
+.featured-work h3, 
+.our-services h3 {
 	font-size: 16.5px;
 	text-align: center;
 }
+
+.our-services {
+	overflow: auto;
+	margin-top: 75px;
+}
+
+.quarter-width {
+	float: left;
+	width: 25%;
+}
+
+
 
 
 /*Homepage Recent post styles*/
