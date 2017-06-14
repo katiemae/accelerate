@@ -13,6 +13,8 @@
  */
 
 get_header(); ?>
+
+
 <section class="home-page">
 	<div class="site-content">
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -45,25 +47,37 @@ get_header(); ?>
 	</div>
 </section>
 
+<?php 
+	$size = "full";
+	$service_image_1 = get_field('image_1'); 
+	$service_image_2 = get_field('image_2'); 
+	$service_image_3 = get_field('image_3'); 
+	$service_image_4 = get_field('image_4'); 
+	$service_title_1 = get_field('service_title_1');
+	$service_title_2 = get_field('service_title_2');
+	$service_title_3 = get_field('service_title_3');
+	$service_title_4 = get_field('service_title_4');
+?>
+
 <section class="our-services">
 	<div class="site-content">
 		<h4>Our Services</h4>
 			<div>
 				<div class="quarter-width">
-					<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/bullseye-icon.jpg">
-					<h3>Content Strategy</h3>
+					<?php echo wp_get_attachment_image( $service_image_1, $size ); ?>
+					<h3><?php echo $service_title_1 ?></h3>
 				</div>
 				<div class="quarter-width">
-					<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/atom-icon.jpg">
-					<h3>Influencer Mapping</h3>
+					<?php echo wp_get_attachment_image( $service_image_2, $size ); ?>
+					<h3><?php echo $service_title_2 ?></h3>
 				</div>
 				<div class="quarter-width">
-					<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/like-icon.jpg">
-					<h3>Social Media Strategy</h3>
+					<?php echo wp_get_attachment_image( $service_image_3, $size ); ?>
+					<h3><?php echo $service_title_3 ?></h3>
 				</div>
 				<div class="quarter-width">
-					<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/magicwand-icon.jpg">
-					<h3>Design &amp; Development</h3>
+					<?php echo wp_get_attachment_image( $service_image_4, $size ); ?>
+					<h3><?php echo $service_title_4 ?></h3>
 				</div>	
 
 
