@@ -339,12 +339,18 @@ aside.case-study-sidebar a.view-project {
 
 /*404 Page Styles*/
 
+
+.page-404 {
+    background: url("img/map.png") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
 #width-404 {
 	width: 85%;
 	margin: 125px auto;
+	overflow: auto;
 }
 
-#width-404 figure {
+#width-404 .image-404 {
 	width: 32%;
 	float: left;
 }

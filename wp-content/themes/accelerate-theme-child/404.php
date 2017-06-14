@@ -9,12 +9,12 @@
 
 get_header(); ?>
 
+<section class="page-404">
 	<div id="primary" class="site-content">
 		<div id="content" role="main" class="content-404">
 			<div id="width-404">
-				<figure>
-					<img src="http://localhost:8888/accelerate/wp-content/uploads/2017/06/map.png">
-				</figure>
+				<div class="image-404">
+				</div>
 				<div class="text-404">
 					<h1>Whoops, Took a Wrong Turn...</h1>
 					<p>Sorry, this page no longer exists, never existed, or has been moved. We feel like complete jerks for totally misleading you.</p>
@@ -23,5 +23,6 @@ get_header(); ?>
 			</div>
 		</div><!-- #content -->
 	</div><!-- #primary -->
+</section>
 
 <?php get_footer(); ?>
