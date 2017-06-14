@@ -37,7 +37,7 @@ get_header(); ?>
 			?>
 			<li class="individual-featured-work">
 				<figure>
-					<?php echo wp_get_attachment_image($image_1, $size); ?>
+					<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image($image_1, $size); ?> </a>
 				</figure>
 				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 			</li>
@@ -92,7 +92,7 @@ get_header(); ?>
 			<h4>From the Blog</h4>
 			<?php query_posts('posts_per_page=1'); ?>
 				<?php while ( have_posts() ) : the_post(); ?>
-					<h2><?php the_title(); ?></h2>
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					<?php the_excerpt(); ?>
 					<a class="read-more-link" href="<?php the_permalink(); ?>">Read more &rsaquo;</a>
 				<?php endwhile; ?>
