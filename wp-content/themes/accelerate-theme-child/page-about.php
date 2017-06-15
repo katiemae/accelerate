@@ -10,6 +10,7 @@
 get_header(); ?>
 
 <?php 
+	$our_services_description = get_field('our_services_description');
 	$size = "full";
 	$image_1 = get_field('image_1'); 
 	$image_2 = get_field('image_2'); 
@@ -24,6 +25,7 @@ get_header(); ?>
 	$service_description_3 = get_field('service_description_3');
 	$service_description_4 = get_field('service_description_4');
 	$contact_button = get_field('contact_button');
+
 ?>
 
 
@@ -42,8 +44,7 @@ get_header(); ?>
 	<div class="site-content" "services-content">
 		<div class="services-intro">
 			<h4>Our Services</h4>
-			<p>We take pride in our clients and the content we create for them.</p>
-			<p>Here's a brief overview of our offered services.</p>
+			<p><?php echo $our_services_description ?></p>
 		</div>
 
 		<div class="service-block">

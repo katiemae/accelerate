@@ -14,13 +14,16 @@
 
 get_header(); ?>
 
+<?php 
+	$homepage_button = get_field('homepage_button');
+ ?>
 
 <section class="home-page">
 	<div class="site-content">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class='homepage-hero'>
 				<?php the_content(); ?>
-				<a class="button" href="<?php echo home_url(); ?>/case-studies">View Our Work</a>
+				<a class="button" href="<?php echo home_url(); ?>/case-studies"><?php echo $homepage_button ?></a>
 			</div>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->
