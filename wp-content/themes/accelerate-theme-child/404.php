@@ -14,6 +14,7 @@ get_header(); ?>
 		<div id="content" role="main" class="content-404">
 			<div id="width-404">
 				<div class="image-404">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/map.png"/>
 				</div>
 				<div class="text-404">
 					<h1>Whoops, Took a Wrong Turn...</h1>
